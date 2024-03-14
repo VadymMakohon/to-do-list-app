@@ -9,3 +9,4 @@ Basic To-Do-List app with the following features:
 
 ![preview](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/7829c3be-e7f1-45e8-b61b-48e7f1dc12cc)
 
+https://vadymmakohon.github.io/to-do-list-app/
