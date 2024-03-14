@@ -7,5 +7,5 @@ Basic To-Do-List app with the following features:
 3. The user can delete an item from the list of items.
 4. The user can change the order of items in the list of items.
 
-[preview](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/7829c3be-e7f1-45e8-b61b-48e7f1dc12cc)
+![preview](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/7829c3be-e7f1-45e8-b61b-48e7f1dc12cc)
 
