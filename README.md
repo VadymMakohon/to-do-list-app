@@ -42,7 +42,7 @@ To run the app locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/to-do-list-app.git
 
-![preview](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/7829c3be-e7f1-45e8-b61b-48e7f1dc12cc)
+![Screenshot 2024-05-30 at 9 14 17 AM](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/09a7fa60-d804-4e50-bd15-14135561b688)
 
 ##test me here: https://vadymmakohon.github.io/to-do-list-app/
 
