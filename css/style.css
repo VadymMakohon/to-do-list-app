@@ -1,61 +1,113 @@
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+    font: normal normal 14px/1.6 "Open Sans", sans-serif;
+    background-color: #06f3f7;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-padding: 20px;
-width: 300px;
-margin: 0 auto;
-margin-top: 40px;
-background: white;
-border-radius: 5px;}
+.container {
+    padding: 20px;
+    width: 300px;
+    margin: 40px auto;
+    background-color: #0798f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 form {
-display: inline-block;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-input{
-padding: 4px 15px 4px 5px;
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
 }
 
-#button{
-display: inline-block;
-background-color:#fc999b;
-color:#ffffff;
-border-radius: 5px;
-text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+#button {
+    background-color: #fc4c4e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#button:hover{
-cursor: pointer;
-opacity: .8;}
+#button:hover {
+    background-color: #e44142;
+}
 
-ol {padding-left: 20px;}
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
 
-ol li {padding: 5px;color:#000;}
+ol li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even) {
+    background-color: #f1f1f1;
+}
 
-.strike{text-decoration: line-through;}
-
-li:hover{
-  cursor: pointer;
- }
+.strike {
+    text-decoration: line-through;
+    color: #999;
+}
 
 .delete {
-	display: none;
+    display: none;
 }
 
-li > crossOutButton {
-	background: none;
-	border: none;
-	float: right;
-	color: #025f70;
-	font-weight: 800;
+li:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+li > .crossOutButton {
+    background: none;
+    border: none;
+    color: #fc4c4e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+li > .crossOutButton:hover {
+    color: #e44142;
+}
+
+li > .editButton {
+    background: none;
+    border: none;
+    color: #337ab7;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: color 0.3s;
+}
+
+li > .editButton:hover {
+    color: #23527c;
 }
