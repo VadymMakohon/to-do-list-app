@@ -39,13 +39,28 @@ Welcome to the To-Do List app! This is a basic application designed to help you 
 To run the app locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/to-do-list-app.git
 
 ![Screenshot 2024-05-31 at 10 38 38 AM](https://github.com/VadymMakohon/to-do-list-app/assets/138728243/45d2fedc-b3b8-4482-9b27-f2074429776a)
 
-##test me here: https://vadymmakohon.github.io/to-do-list-app/
+## Github repo
+
+This is the [link](https://github.com/VadymMakohon/to-do-list-app) to the Github repo of the project
+
+## Sample Website
+
+A live demo is already available via this [link](https://vadymmakohon.github.io/to-do-list-app/)
+
+## 📜 License
+
+This repository is for educational purposes only and has an MIT License
+
+### Show your support
+
+Give a ⭐ if you like this website!
 
 # Contributors
-- [Vadym Makohon](https://github.com/VadymMakohon)
 
+- [Vadym Makohon](https://github.com/VadymMakohon)
