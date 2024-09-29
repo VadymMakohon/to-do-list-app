@@ -3,6 +3,7 @@
 Welcome to the To-Do List app! This is a basic application designed to help you manage your tasks efficiently.
 
 ## Preview
+![preview](https://github.com/user-attachments/assets/9b1bc6f3-502a-451d-bf61-18e163f4da7b)
 
 ## Features
 
